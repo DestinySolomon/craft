@@ -55,7 +55,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 1;
+  z-index: 0;
+  filter: blur(9px);
+  transform: scale(1.1);
 }
 
 
@@ -66,7 +68,7 @@
 }
 .modal-content{
     background-color: #1a1a2e!important;
-    background-image: linear-gradient(to right, #2c2c57, #000000);
+    background-image: linear-gradient(to right, #5a2685, #000000);
     border-radius: 10px;
 }
  
@@ -97,10 +99,6 @@
   padding: 40px;
   margin-top: 40px;
   flex-wrap: wrap;
-  display: flex;
-
-justify-content: space-between;
-
 }
 
 /* ---------------------- */
@@ -326,6 +324,9 @@ footer, p{
 
 
   /* explore styling */
+  .hero-secti{
+height: 80vh;
+  }
      .lead-my-4{
       font-weight: 700;
       font-size: 1.8rem;
@@ -514,7 +515,6 @@ footer, p{
 
     .hero-section {
       background: url(images/Screenshot\ 2025-06-12\ 214258.png);
-      opacity: 0.08;
        background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -524,6 +524,8 @@ footer, p{
   position: relative;
   text-align: center;
   align-items: center;
+  background-blend-mode: multiply;
+  background-color: #000000ac;
     }
 
     .hero-section h1 {
@@ -561,7 +563,6 @@ footer, p{
     /* contact styling */
   
     body {
-      background: linear-gradient(to right, #0b1f3a, black); /* navy blue */
       color: #ffffff;
     }
     .form-control, .form-control:focus {
@@ -595,16 +596,16 @@ footer, p{
       color: white;
     }
 .hero-sect{
-  height: 98vh;
-  /* background-color: navy; */
+  height: 85vh;
   overflow: hidden;
   position: relative;
+  top: 3em;
 }
 
 .hero-sect::before {
   content: '';
   position: absolute;
-  top: 18%;
+  top: 28%;
   left: 20%;
   width: 800px;
   height: 400px;
