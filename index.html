@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CraftiFi</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/logos/logo.png" type="image/x-icon">
+ 
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logos/logo.png" alt="Logo" width="80em">
+    </a>
+
+    <!-- ADD THIS TOGGLE BUTTON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Make sure this ID matches the data-bs-target above -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="Explore.html">Explore</a></li>
+        <li class="nav-item"><a class="nav-link" href="Tokenize.html">Tokenize</a></li>
+        <li class="nav-item"><a class="nav-link" href="Craft.html">$Craft</a></li>
+        <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+      </ul>
+    </div>
+
+    <button class="btn btn-wallet" data-bs-toggle="modal" data-bs-target="#walletModal">
+      Connect Wallet
+    </button>
+  </div>
+</nav>
+
+
+
+  <!-- Hero Section with Background Video -->
+<section class="hero-section position-relative text-white d-flex align-items-center justify-content-center text-center">
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="video/bg2.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Dark Overlay -->
+  <div class="hero-overlay"></div>
+
+  <!-- Hero Content -->
+  <div class="container hero-content px-3">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1 class="display-5 fw-bold">Crafting a Decentralized Future for Handmade Art</h1>
+    <p class="lead-my-3">Join a next-gen ecosystem where handmade crafts are tokenized into NFTs and real-world assets, owned, traded, and redeemed across chains.</p>
+    <button class="btn btn-primary-custom mt-3">Get Started</button>
+  </div>
+</section>
+
+  <!-- Stats Section -->
+<section class="stats-section mt-5">
+  <div class="container">
+    <div class="row text-center text-white">
+      <div class="col-md-4 mb-4">
+        <h2 class="counter" data-target="1008">$80</h2>
+        <p>TRANSACTIONS</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h2 class="counter" data-target="20000">0</h2>
+        <p>RARE NFTS</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h2 class="counter" data-target="10000">0</h2>
+        <p>USERS</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="walletModal" tabindex="-1" aria-labelledby="walletModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content  text-white">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="walletModalLabel">Connect Your Wallet</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-grid gap-3">
+            <button class="btn btn-outline-light">MetaMask</button>
+            <button class="btn btn-outline-light">WalletConnect</button>
+            <button class="btn btn-outline-light">Coinbase Wallet</button>
+            <button class="btn btn-outline-light">Phantom</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Partners Section -->
+<section class="partners-section py-5 mt-5">
+  <div class="container text-center mb-4">
+    <h4 class="text-white">Our Trusted Partners</h4>
+  </div>
+  <div class="scrolling-wrapper">
+    <div class="logos">
+      <img src="images/logos/logo1.png" alt="Partner 1" />
+      <img src="images/logos/logo2.png" alt="Partner 2" />
+      <img src="images/logos/logo3.png" alt="Partner 4" />
+      <img src="images/logos/logo4.png" alt="Partner 5" />
+      <img src="images/logos/logo5.png" alt="Partner 6" />
+      <img src="images/logos/logo1.png" alt="Partner 7" />
+       <img src="images/logos//logo2.png" alt="Partner 4" />
+      <img src="images/logos/logo3.png" alt="Partner 5" />
+      <img src="images/logos/logo4.png" alt="Partner 6" />
+      <img src="images/logos/logo5.png" alt="Partner 7" />
+    </div>
+  </div>
+</section>
+
+
+<!-- Why Choose Us Section -->
+<section class="why-choose-us py-5">
+  <div class="container">
+    <div class="row align-items-center text-white">
+      
+      <!-- Left: About Text -->
+      <div class="col-md-6 mb-4">
+        <div class="glow-box p-4">
+          <h3>Why Choose Us</h3>
+          <p>
+            We offer a unique marketplace for discovering, minting, and trading rare NFTs with verified ownership. Our secure platform ensures transparent transactions, low fees, and a creator-first approach.
+          </p>
+          <p>
+             Craft-based tokens and NFTs can move seamlessly across multiple blockchains. Unlocking wider exposure, access to global liquidity, and flexibility across ecosystems like Ethereum, Polygon, and more.
+          </p>
+
+           <p>
+            Most NFT platforms cater to digital artists or collectors. CraftiFi is designed specifically for handmade creators — with intuitive tools to mint, list, and manage your tokenized craft items without writing code.
+          </p>
+          <p>
+            Unlike most NFT platforms, CraftiFi offers a hybrid model. Buyers can hold your craft as a digital token or request real-world delivery — with blockchain ensuring authenticity, traceability, and ownership history.
+          </p>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+
+      <!-- Right: NFT Card -->
+      <div class="col-md-6">
+        <div class="nft-card p-3">
+          <img src="images/Screenshot 2025-06-12 080511.png" class="img-fluid rounded" alt="NFT Image" />
+          <div class="mt-3">
+            <h5>Neon Skull</h5>
+            <p class="text">A rare cyber-themed NFT from the FutureDrop collection.</p>
+            <h6 class="text-primary">$1,800 ETH</h6>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Featured NFTs Section -->
+<section class="featured-nfts py-5">
+  <div class="container">
+    <h3 class="text-white text-center mb-4">Featured NFTs</h3>
+    <div class="row g-4">
+      
+      <!-- NFT Card -->
+      <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/Screenshot 2025-06-12 080511.png"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar1.jpeg">
+          
+    <img src="images/Screenshot 2025-06-12 080511.png" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge "><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+      <!-- Repeat 8 More Cards -->
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/pottery-gallerry1.jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar2.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/pottery-gallerry1.jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge "><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/pottery-gallery2 (3).jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar3.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/pottery-gallery2 (3).jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge"><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Row 2 -->
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/adorable-hand-puppet-show-kids.jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar4.jpeg"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/adorable-hand-puppet-show-kids.jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge "><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/pottery-gallery2.jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar1.jpeg"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/pottery-gallery2.jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge "><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/Screenshot 2025-06-12 080511.png"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar5.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/Screenshot 2025-06-12 080511.png" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge"><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Row 3 -->
+     <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/pottery-gallery2.jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar6.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/pottery-gallery2.jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge"><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+      <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/pottery-gallery1 (3).jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar7.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/pottery-gallery1 (3).jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge "><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+
+      <div class="col-md-4">
+  <div class="nft-card p-3 text-white" 
+       data-bs-toggle="modal" 
+       data-bs-target="#nftModal"
+       data-name="Neon Cat"
+       data-image="images/pottery/adorable-hand-puppet-show-kids.jpg"
+       data-price="$950 ETH"
+       data-category="Cyber"
+       data-description="A rare digital neon cat from FutureDrop."
+       data-owner="images/avatar/avatar3.png"
+       data-chart="https://via.placeholder.com/400x150?text=Price+Chart">
+       
+    <img src="images/pottery/adorable-hand-puppet-show-kids.jpg" class="img-fluid rounded" alt="NFT Image" />
+    <div class="mt-3">
+      <h5 class="d-flex align-items-center justify-content-between">
+        Neon Cat <span class="badge"><i class="fa-solid fa-circle-check" style="color: #ffffff;"></i></span>
+      </h5>
+      <p class="">Condition: Minted</p>
+      <h6 class="text-primary">$950 ETH</h6>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- NFT Detail Modal -->
+<div class="modal fade" id="nftModal" tabindex="-1" aria-labelledby="nftModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-dark text-white">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="nftModalLabel">
+          <span id="nftName">NFT Name</span>
+          <span class="badge bg-success ms-2"><i class="bi bi-patch-check-fill"></i></span>
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body row">
+        <div class="col-md-6">
+          <img id="nftImage" src="" class="img-fluid rounded" alt="NFT Full Image" />
+        </div>
+        <div class="col-md-6">
+          <h6>Price: <span id="nftPrice">$0 ETH</span></h6>
+          <h6>Category: <span id="nftCategory">Art</span></h6>
+          <p id="nftDescription" class="mt-3">NFT description goes here...</p>
+          <div class="d-flex align-items-center gap-2 mt-3">
+            <img id="nftOwner" src="images/Screenshot 2025-06-12 080511.png" class="rounded-circle" alt="Owner" />
+            <span>Owner: <strong>0x123...89</strong></span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="testimonials-section py-5">
+  <div class="container">
+    <h3 class="text-white text-center mb-5">What Our Minters Say</h3>
+
+    <!-- Row 1 -->
+    <div class="row-mobile-scroll animate-left mb-4">
+
+      <div class="testimonial-card-wrapper">
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatar3.png" class="rounded-circle mb-3" alt="Avatar">
+          <p>"Minting was smooth and exciting. I sold my first NFT in 24 hours!"</p>
+          <h6>- Alice | @nftqueen</h6>
+        </div>
+      </div>
+
+      <div class="testimonial-card-wrapper">
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatar1.jpeg" class="rounded-circle mb-3" alt="Avatar">
+          <p>"I love how intuitive the platform is. Great team and support."</p>
+          <h6>- Ben | @mintguru</h6>
+        </div>
+      </div>
+
+      <div class="testimonial-card-wrapper">
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatar2.png" class="rounded-circle mb-3" alt="Avatar">
+          <p>"The minting experience here is unlike any other. Seamless and quick."</p>
+          <h6>- Carol | @art4chain</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row-mobile-scroll animate-right">
+      <div class="testimonial-card-wrapper">
+
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatr4.png" class="rounded-circle mb-3" alt="Avatar">
+          <p>"I’ve minted and sold over 10 NFTs in 2 weeks. Smooth experience!"</p>
+          <h6>- Daniel | @cryptocrafter</h6>
+        </div>
+      </div>
+
+      <div class="testimonial-card-wrapper">
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatar7.png" class="rounded-circle mb-3" alt="Avatar">
+          <p>"From mint to market, everything is just perfect here."</p>
+          <h6>- Eve | @tokenlady</h6>
+        </div>
+      </div>
+
+      <div class="testimonial-card-wrapper">
+        <div class="testimonial-card text-white p-4">
+          <img src="images/avatar/avatar6.png" class="rounded-circle mb-3" alt="Avatar">
+          <p>"A dream come true for minters. Can’t recommend it enough."</p>
+          <h6>- Frank | @mintlegend</h6>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-banner-modern py-5">
+  <div class="container text-center text-white">
+    <div class="cta-box p-5">
+      <h2 class="mb-3 fw-bold">Start your NFT journey</h2>
+      <p class="mb-4 lead">Join Sphere and dive into the world of exclusive digital art.</p>
+      <a href="#" class="btn btn-gradient btn-lg px-5">Get Started</a>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer-modern text-white pt-5">
+  <!-- Top Layer -->
+  <div class="footer-top container pb-4">
+    <div class="row">
+      <!-- Left - Brand Message -->
+      <div class="col-md-5 mb-4">
+        <h4 class="fw-bold">CraftiFi</h4>
+        <p class="mt-3">Craft-based tokens and NFTs can move seamlessly across multiple blockchains. Unlocking wider exposure, access to global liquidity, and flexibility across ecosystems like Ethereum, Polygon, and more.</p>
+      </div>
+
+      <!-- Center - Company -->
+      <div class="col-md-1 mb-4">
+        <h6 class="text-uppercase fw-semibold mb-3">Company</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Hiring</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Right - Resources -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase fw-semibold mb-3">Resources</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Become a partner</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Layer -->
+  <div class="footer-bottom text-center py-3">
+    <small>&copy; Copyright Sphere 2024. All Rights Reserved.</small>
+  </div>
+</footer>
+
+
+
+
+
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

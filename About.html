@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - CraftiFi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logos/logo.png" alt="Logo" width="80em">
+    </a>
+
+    <!-- ADD THIS TOGGLE BUTTON -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Make sure this ID matches the data-bs-target above -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="Explore.html">Explore</a></li>
+        <li class="nav-item"><a class="nav-link" href="Tokenize.html">Tokenize</a></li>
+        <li class="nav-item"><a class="nav-link" href="Craft.html">$Craft</a></li>
+        <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+      </ul>
+    </div>
+
+    <button class="btn btn-wallet" data-bs-toggle="modal" data-bs-target="#walletModal">
+      Connect Wallet
+    </button>
+  </div>
+</nav>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="walletModal" tabindex="-1" aria-labelledby="walletModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content  text-white">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="walletModalLabel">Connect Your Wallet</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-grid gap-3">
+            <button class="btn btn-outline-light">MetaMask</button>
+            <button class="btn btn-outline-light">WalletConnect</button>
+            <button class="btn btn-outline-light">Coinbase Wallet</button>
+            <button class="btn btn-outline-light">Phantom</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Hero Sect -->
+<section class="hero-sect text-center text-white">
+  <div class="hero-overlay">
+    <!-- <div class="container">
+      <h1 class="display-4 fw-bold">Empowering Artisans. Tokenizing Craft.</h1>
+      <p class="lead">CraftiFi bridges the gap between traditional craftsmanship and Web3 innovation — enabling artisans to tokenize their creations securely and globally.</p>
+    </div> -->
+    <div class="hero-sect position-relative text-white text-center align-items-center justify-content-center">
+  <h1 class="position-relative z-2">Empowering Artisans. Tokenizing Craft.</h1>
+  <p class="lead">CraftiFi bridges the gap between traditional craftsmanship and Web3 innovation, enabling artisans to tokenize their creations securely and globally.</p>
+</div>
+
+  </div>
+</section>
+
+<!-- Mission Section -->
+<section class="py-5">
+  <div class="container text-center">
+    <h2>Our Mission</h2>
+    <p class="fs-5">At CraftiFi, our mission is to empower artisans by providing them with tools to convert their physical craftsmanship into secure, tradable digital assets. We aim to unlock new income streams, preserve culture, and bring real-world utility to the blockchain.</p>
+  </div>
+</section>
+
+<!-- Our Story Section -->
+<section class="py-5 bg-dark">
+  <div class="container text-center">
+    <h2>Our Story</h2>
+    <p class="fs-5">CraftiFi was born from a desire to bring local craftsmanship into the digital era. After witnessing how many artisans struggled to reach modern markets, we envisioned a platform that would give them global access, ownership, and visibility through tokenization.</p>
+  </div>
+</section>
+
+<!-- What We Offer Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">What We Offer</h2>
+    <ul class="list-unstyled fs-5">
+      <li class="mb-3 d-flex align-items-center"><i class="bi bi-check tick"></i> Tokenization of crafts as NFTs or ERC-20 tokens</li>
+      <li class="mb-3 d-flex align-items-center"><i class="bi bi-check tick"></i> Listing and discovery of unique, artisan-made items</li>
+      <li class="mb-3 d-flex align-items-center"><i class="bi bi-check tick"></i> Seamless integration with crypto wallets</li>
+      <li class="mb-3 d-flex align-items-center"><i class="bi bi-check tick"></i> $Craft token utility across the ecosystem</li>
+      <li class="mb-3 d-flex align-items-center"><i class="bi bi-check tick"></i> Security and authenticity checks before listing</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section class="py-5 bg-dark">
+  <div class="container text-center">
+    <h2>Why Choose CraftiFi</h2>
+    <p class="fs-5">CraftiFi isn’t just a marketplace, it’s a movement. We are focused on real-world assets (RWAs), authenticity, and community-first design. With transparent smart contracts, artisan-first economics, and a vibrant community, we’re building the future of digital craft ownership.</p>
+  </div>
+</section>
+
+<!-- Meet the Team Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Meet the Team</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/team/CEO1.jpg" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Jane Doe</h5>
+            <p class="card-text">Chief Executive Officer (CEO)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/avatar/avatar7.png" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">John Smith</h5>
+            <p class="card-text">Chief Technology Officer (CTO)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/team/team.jpg" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Emily White</h5>
+            <p class="card-text">Chief Operating Officer (COO)</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/avatar/avatar2.png" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Michael Grey</h5>
+            <p class="card-text">Chief Marketing Officer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/avatar/avatar1.jpeg" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Nina Lopez</h5>
+            <p class="card-text">Lead Product Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <div class=" p-3">
+         <img src="images/avatar/avatar5.png" alt="Logo" class="rounded-circle" width="200" height="200">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">Tom Lee</h5>
+            <p class="card-text">Full Stack Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="py-5 text-center bg-dark">
+  <div class="container">
+    <h2 class="mb-3">Ready to be part of the craft revolution?</h2>
+    <p class="mb-4">🌍 Explore artisan creations or 🎨 Tokenize your own craft today.</p>
+    <a href="explore.html" class="btn btn-light me-2">Explore Crafts</a>
+    <a href="tokenize.html" class="btn btn-outline-light">Tokenize Now</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer class="footer-modern text-white pt-5">
+  <!-- Top Layer -->
+  <div class="footer-top container pb-4">
+    <div class="row">
+      <!-- Left - Brand Message -->
+      <div class="col-md-5 mb-4">
+        <h4 class="fw-bold">CraftiFi</h4>
+        <p class="mt-3">Craft-based tokens and NFTs can move seamlessly across multiple blockchains. Unlocking wider exposure, access to global liquidity, and flexibility across ecosystems like Ethereum, Polygon, and more.</p>
+      </div>
+
+      <!-- Center - Company -->
+      <div class="col-md-1 mb-4">
+        <h6 class="text-uppercase fw-semibold mb-3">Company</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Hiring</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Right - Resources -->
+      <div class="col-md-4 mb-4">
+        <h6 class="text-uppercase fw-semibold mb-3">Resources</h6>
+        <ul class="list-unstyled">
+          <li><a href="#">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Become a partner</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Layer -->
+  <div class="footer-bottom text-center py-3">
+    <small>&copy; Copyright Sphere 2024. All Rights Reserved.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
